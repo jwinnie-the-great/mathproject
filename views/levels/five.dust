@@ -1,0 +1,29 @@
+{>"template"/}
+
+{<content}
+Since it’s only about 2 minutes, you patiently wait for the download to finish.
+
+{>"hide/hidden_toggle" message="Run Registry Scanner"/}
+
+{>"hide/hidden"/}
+    <img src="https://malwaretips.com/blogs/wp-content/uploads/2017/04/Registry-Scanner-virus.jpg"></img>
+
+    Woah! Registry Scanner says you have 430 registry errors and your PC is of low health! No wonder your laptop was using so much memory. Registry Scanner says the sophisticated algorithm it uses to determine whether PC health is low is <math>x<=100 OR 5<|-x(50)|</math>. Wait a minute...
+
+    {>"input/form" nextLevel="6" /}
+        Simplify the inequality <math>x<=100 OR 5<|-x(50)|</math>.
+        {>"input/text"/}
+        Plot it:
+        <div id="calculator" style="width: 800px; height: 500px;"></div>
+        <script src="https://www.desmos.com/api/v1.0/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
+        <script>
+          var elt = document.getElementById('calculator');
+          var calculator = Desmos.GraphingCalculator(elt);
+        </script>
+
+        <next>Click Next to begin <b>Level 4: Systems of Linear Equations and Inequalities</b>.</next>
+        {>"input/submit"/}
+    </form>
+</div>
+
+{/content}

@@ -1,0 +1,46 @@
+{>"template"/}
+
+{<content}
+<img src="https://www.supermoney.com/wp-content/uploads/2014/12/hacking-warning.jpg"></img>
+
+You plan to sit down at your blog and begin write a post about your intent to install Linux. You also want to write about all the things you've learned about Linux distributions, which one is the most highly rated and which one is the most popular. When you go to your website, however, you realize your blog is all messed up and everything is in the wrong place!
+<br /><br />
+After looking around, you realize your website was hacked. You must move things back in order before the timer runs out and people realize your website has been hacked!
+
+<h4 style="position:fixed;bottom:0;background-color:black;color:white;padding:20px;right:0">Time Elapsed: <span id="basicUsage">00:00:00</span>/00:00:20</h4>
+<br /><br />
+{>"input/form"/}
+    What are the four types of transformations?
+    {>"input/text"/}
+    {>"input/text"/}
+    {>"input/text"/}
+    {>"input/text"/}
+    <h4>Translations</h4>
+    A button that was originally at <math>(3,4)</math> is now at <math>(5,10)</math>. Write the equation that can be used to bring it back:
+    {>"input/text"/}
+    A Facebook "like" button is at (3,4). It was brought there by the malicious transformation <math>(x,y)=>(x-4,y+2)</math>. Where was it originally?
+    {>"input/text"/}
+    <h4>Rotations</h4>
+    The loading spinner on your page is chopped up, and now only a quarter of it remains. The quarter is at <math>(1,2)</math>. You must rotate the spinner three times in order to make it a full circle again.
+    <br />
+    90 degrees clockwise: {>"input/text"/}
+    180 degrees clockwise: {>"input/text"/}
+    270 degrees clockwise: {>"input/text"/}
+    <next>Click Next to begin <b>Level 10: Similar/Congruent</b>.</next>
+    {>"input/submit"/}
+</form>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/easytimer.js@2.2.1/dist/easytimer.js"></script>
+<script>
+var timer = new Timer();
+timer.start({target: {seconds: 20}});
+timer.addEventListener('secondsUpdated', function (e) {
+    $('#basicUsage').html(timer.getTimeValues().toString());
+});
+timer.addEventListener('targetAchieved', function (e) {
+    alert("Oops! You didn't make it in time!");
+    window.location = "/die?lvl=20";
+});
+</script>
+{/content}

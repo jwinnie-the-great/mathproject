@@ -1,0 +1,5 @@
+{?noBlock}
+    <input type="text" required style="display:block" />
+{:else}
+    <input type="text" required />
+{/noBlock}

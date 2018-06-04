@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Math Project!</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/pure.min.css' />
+  </head>
+  <body>
+    {+content}{/content}
+    <br/>
+    <br />
+    <!--<div id="fingerprint">Your <a href="https://www.pcworld.com/article/192648/browser_fingerprints.html" target="_blank" rel="noopener">unique browser fingerprint</a> is: </div>
+    <div id="adblocking">
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.8.0/fingerprint2.min.js"></script>
+    <script>new Fingerprint2().get(function(result, components) { document.getElementById("fingerprint").innerHTML+="<b><code>"+result+"</code></b>" })
+    </script>
+    <script src="/javascripts/ads.js"></script>
+    <script>if (window.canRunAds === undefined) { document.getElementById("adblocking").innerHTML = "Yay! You have an ad blocker installed." } else { document.getElementById("adblocking").innerHTML="You don't have an adblocker installed. I recommend an adblocker like <a href=https://getublockorigin.com target=_blank rel=noopener>uBlock Origin</a> for privacy and security reasons."}</script>-->
+  </body>
+</html>

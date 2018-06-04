@@ -1,0 +1,64 @@
+{>"template"/}
+
+{<content}
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+So you decide on the <span id="macname"></span>, but you think 4GB of memory is way too little. These are the prices of memory upgrades:
+<script>document.getElementById('macname').innerHTML=Cookies.get('mac_purchased')</script>
+<table class="pure-table">
+    <tr>
+        <th>
+            6GB
+        </th>
+        <td>
+            $10
+        </td>
+    </tr>
+        <th>
+            8GB
+        </th>
+        <td>
+            $20
+        </td>
+    </tr>
+        <th>
+            10GB
+        </th>
+        <td>
+            $40
+        </td>
+    </tr>
+        <th>
+            12GB
+        </th>
+        <td>
+            $80
+        </td>
+    </tr>
+</table>
+
+{>"input/form"/}
+    Write this as a sequence:
+    {>"input/text"/}
+    What is the recursive formula?
+    {>"input/text"/}
+    What is the explicit formula?
+    {>"input/text"/}
+    What type of sequence is this?
+    {>"input/text"/}
+
+    How much memory do you get?
+    {>"input/radio" name="whichMac" optionOne="6" optionTwo="8" optionThree="10" optionFour="12"/}
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Late_2016_MacBook_Pro.jpg/1200px-Late_2016_MacBook_Pro.jpg" />
+    <br />
+    <br />
+    <next>Click Next to begin <b>Level 7: One Variable Statistics</b>.</next>
+    {>"input/submit" nextLevel="17" label="That's way to expensive! Let's install Linux instead."/}
+    <a href="/die?lvl=16">I'd rather kill myself than install that horrible Linux!</a>
+</form>
+{/content}

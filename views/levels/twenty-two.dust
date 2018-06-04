@@ -1,0 +1,7 @@
+{>"template"/}
+
+{<content}
+<h1>Yay! You finished the game!</h1>
+Hopefully you are now well versed in 8th grade math. :) You also (more importantly) now realize that Linux is god.
+<img src="https://imgs.xkcd.com/comics/linux_user_at_best_buy.png" />
+{/content}

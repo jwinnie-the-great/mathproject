@@ -1,0 +1,56 @@
+
+{>"template"/}
+
+{<content}
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+<img src="https://cdn.vox-cdn.com/thumbor/wn_Dnxqs0mVf2B6hmLpKTfSSLtA=/0x22:600x360/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/51124021/applestorefrance.0.0.jpg" />
+You drive to the Apple store. The prices for Macs are the following:
+<table class="pure-table">
+    <tr>
+        <th>
+            Mac Mini
+        </th>
+        <td>
+            $1000
+        </td>
+    </tr>
+    <tr>
+        <th>
+            Macbook Air
+        </th>
+        <td>
+            $2000
+        </td>
+    </tr>
+    <tr>
+        <th>
+            Macbook Pro
+        </th>
+        <td>
+            $3000
+        </td>
+    </tr>
+    <tr>
+        <th>
+            Mac Pro
+        </th>
+        <td>
+            $4000
+        </td>
+    </tr>
+</table>
+<br/><br/>
+{>"input/form" nextLevel="16"/}
+    Write this as a sequence:
+    {>"input/text"/}
+    What is the recursive formula?
+    {>"input/text"/}
+    What is the explicit formula?
+    {>"input/text"/}
+    What type of sequence is this?
+    {>"input/text"/}
+    Which Mac do you get?
+    {>"input/radio" name="whichMac" optionOne="Mac Mini" optionTwo="Macbook Air" optionThree="Macbook Pro" optionFour="Mac Pro"/}
+    <input type="submit" class="pure-button" value="Buy" onclick="Cookies.set('mac_purchased',$('input[name=whichMac]:checked').val())"></form>
+{/content}

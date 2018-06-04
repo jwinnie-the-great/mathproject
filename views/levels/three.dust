@@ -1,0 +1,20 @@
+{>"template"/}
+
+{<content}
+It seems memory usage has been increasing exponentially. That’s not a good sign! You decide to find out more.
+
+<iframe src="https://www.desmos.com/calculator/zly8dygxl5?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+{>"input/form" nextLevel="4"/}
+    Domain:
+    {>"input/text"/}
+    Range:
+    {>"input/text"/}
+    Function Notation (<math>f(x)=a*b^(x-h)+k</math>):
+    {>"input/text"/}
+
+    <next>Click Next to begin <b>Level 2: Linear Functions and Function Notation</b>.</next>
+    {>"input/submit"/}
+</form>
+
+{/content}

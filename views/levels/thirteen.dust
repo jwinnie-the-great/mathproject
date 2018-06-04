@@ -1,0 +1,12 @@
+{>"template"/}
+
+{<content}
+On your way back home, you see the truck again. “OMG!” you think, “Why are we learning about functions again?” "Well, see, there are two units about functions," says a mysterious voice.
+<br /><br />
+The moment you see the truck, it is 12 meters away. A minute later, it is 6 meters away. Two minutes later, it is 3 meters away. Use substitution to figure out what the equation is in function notation.
+{>"input/form" nextLevel="14"/}
+    {>"input/text"/}
+    <next>Click Next to begin <b>Level 6 Part 2: Sequences</b>.</next>
+    {>"input/submit"/}
+</form>
+{/content}

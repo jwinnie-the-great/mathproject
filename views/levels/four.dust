@@ -1,0 +1,30 @@
+{>"template"/}
+
+{<content}
+At this point, you think there is a memory leak, so you search around. A website recommends that you install Registry Scanner, which is supposed to fix errors in Windows.
+{>"hide/hidden_toggle" message="Download Registry Scanner"/}
+
+{>"hide/hidden"/}
+    <img src="https://assets.materialup.com/uploads/94093eda-5894-4b16-9d1f-914d93504c64/download.gif"></img>
+
+    But it’s taking a long time to download, since your Wi-Fi speeds are super slow too. Good thing Registry Scanner says it’ll also improve your internet speed.
+
+    You decide to calculate how much time is left in the download to decide whether you should do something else while waiting. After 1 second, 5 megabytes have already been downloaded out of 690 megabytes total. After 2 seconds, 10 megabytes have been downloaded.
+
+    <br/>
+
+    {>"input/form" nextLevel="5" /}
+    Slope-Intercept Form in Function Notation:
+    {>"input/text"/}
+    Point-Slope Form:
+    {>"input/text"/}
+    Standard Form:
+    {>"input/text"/}
+
+    After how many minutes will the download finish (round to the nearest tenth)?
+    {>"input/text"/}
+
+    <next>Click Next to begin <b>Level 3: Compound and Absolute Value Inequalities</b>.</next>
+    {>"input/submit"/}
+</div>
+{/content}

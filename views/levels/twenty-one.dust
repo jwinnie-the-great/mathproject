@@ -1,0 +1,11 @@
+{>"template"/}
+
+{<content}
+Phew! Your website looks just like before... except your logo is missing! You must redesign your logo.
+
+{>"input/form"/}
+    Your logo is a quadrilateral with the two sides on top congruent and the two sides on the bottom congruent. What type of quadrilateral is this?
+    {>"input/radio" name="type" optionOne="Parallelogram" optionTwo="Rhombus" optionThree="Kite"/}
+    <next>Click Next to finish the game!</next>
+    {>"input/submit"/}
+{/content}

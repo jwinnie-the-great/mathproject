@@ -1,0 +1,15 @@
+{>"template"/}
+
+{<content}
+On the way to Best Buy, you see a giant truck coming at you!
+<br/>
+<iframe src="https://www.desmos.com/calculator/jscaybdrol?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+{>"input/form" nextLevel="8" /}
+    Which phrase below best describes the trajectories of you and the truck?
+    {>"input/radio" name="describe" optionOne="Consistent and Independent" optionTwo="Consistent and Dependent" optionThree="Inconsistent" /}
+    {>"input/submit" label="Hit the brakes and avoid the collision" /}
+    <br/>
+    <a href="/die?lvl=7">Hit the truck and die</a>
+</form>
+{/content}

@@ -1,0 +1,25 @@
+{
+  "restartable": "rs",
+  "ignore": [
+    ".git",
+    "node_modules/**/node_modules"
+  ],
+  "verbose": true,
+  "execMap": {
+    "js": "node --harmony"
+  },
+  "events": {
+    "restart": "notify-send --urgency low \"Nodemon: Restart\" \"$FILENAME\""
+  },
+  "watch": [
+    "routes/",
+    "views/",
+    "bin/",
+    "public/"
+  ],
+  "env": {
+    "DEBUG": "mathproject:*"
+  },
+  "ext": "js,json,dust,css",
+  "delay": 0
+}

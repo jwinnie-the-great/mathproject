@@ -1,0 +1,31 @@
+{>"template"/}
+
+{<content}
+You've been told that DistroWatch rankings are highly unreliable, so you want to test their reliability. You count the number of times a distribution is mentioned on a popular news site and compare the two numbers on a scatter plot. Y is the popularity on DistroWatch and X is the popularity on news sites.
+<br /><br />
+<style>iframe{border: 1px solid #ccc;display: inline}</style>
+<iframe src="https://www.desmos.com/calculator/f4eptnf5h1?embed" width="100%" height="600px" frameborder=0></iframe>
+<a href="https://docs.google.com/spreadsheets/d/10EuKVq7dN4IVMbdRzA0fqDwd2h-2lp1yKmNfhWRNjDQ/edit?usp=sharing" class="pure-button-primary pure-button" target="_blank" rel="noopener">Open Data on Google Sheets</a>
+{>"input/form" nextLevel="19"/}
+    What is the correlation?
+    {>"input/radio" name="correlation" optionOne="Strong Positive" optionTwo="Weak Positive" optionThree="Weak Negative" optionFour="Strong Negative"/}
+    Of the two equations: <math>y=x</math> and <math>y=½x</math>, calculate which is the better fit using the sum of the squares of the residuals.
+    {>"input/radio" name="betterFit" optionOne="y=x" optionTwo="y=½x"/}
+
+    <h4>The following problems require a graphing calculator.</h4>
+
+    <br/>
+    Get the line of best fit:
+    {>"input/text"/}
+    Get the correlation coefficient:
+    {>"input/text"/}
+    <br/>
+    <b>Graph the residuals manually on your graphing calculator. Then, use the automatic residual calculator to verify if you were right.</b>
+    <br/><br />
+    After all this research, can you conclude that DistroWatch rankings are accurate?
+    {>"input/radio" name="accurate" optionOne="No" optionTwo="Yes" optionThree="Maybe"/}
+
+    <next>Click Next to begin <b>Level 8 Part 2: Frequency Tables</b>.
+    {>"input/submit"/}
+</form>
+{/content}

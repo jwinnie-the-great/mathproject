@@ -1,0 +1,13 @@
+{>"template"/}
+
+{<content}
+<h1>Welcome to the 8th Grade Math Game!</h1>
+<h2 class="rainbow">Warning: May contain traces of dairy or gluten. DO NOT TRY THIS AT HOME.</h2>
+<br /><br />
+<b>Note:</b> The game doesn't actually check your answers.
+<br /><br />
+<b>Tip: </b> If you lose your progress, you can jump back to the page by going to <code>/lvl/[page number]</code>. You can even jump to the end by going to <code>/end</code> (not recommended)!
+<br /><br />
+<b>Note: </b> Some computer elements in this game are very technical. If you don't understand it, just ignore it and do the math :)
+<a href="/lvl/1" class="pure-button">Begin Game</a>
+{/content}

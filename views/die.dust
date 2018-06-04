@@ -1,0 +1,10 @@
+{>"template"/}
+
+{<content}
+<h1>Hurray! You died!</h1>
+<p>
+    <img src="https://i.giphy.com/media/3oEjHD764dj1LVz2j6/giphy.gif" />
+    No, I'm not sad. And yes, you still have to keep playing.
+    <a href="/lvl/{level}" class="pure-button">Go Back and Choose the Right Buton</a>
+</p>
+{/content}

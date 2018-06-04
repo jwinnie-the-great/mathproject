@@ -1,0 +1,5 @@
+{?label}
+    <input type="submit" class="pure-button" value="{label}">
+{:else}
+    <input type="submit" class="pure-button" value="Next">
+{/label}

@@ -1,0 +1,51 @@
+{>"template"/}
+{<content}
+<style>body{font-family:monospace;background-color: black;color:white;}input[type="text"]{color:green;font-weight:bold  }</style>
+<h1>Programming a Robot!</h1>
+Neither you nor the manager knows the password for the robot, so you decide to disassemble the obfuscated code in order to figure it out.
+<pre>
+<br /><br />
+x00ff_youtube         ((3 7 -6 2) (4 0 6 7))
+<br />
+x23ff_stack_overflow  ((-5 3 0 7) (4 8 1 -2))
+<br />
+2__!                  ((3 4) (0 1) (9 2) (-1 -1))
+<br /><br />
+</pre>
+{>"input/form" nextLevel="12"/}
+    B01ff_bf1 is the result of taking away x00ff_youtube from x23ff_stack_overflow.
+    <br />
+    Calculate B01ff_bf1:
+    {>"input/text"/}
+    Now multiply B01ff_bf1 by -⅓ to get __vg31:
+    {>"input/text"/}
+    Can you multiply __vg31 by x00ff_youtube?
+    {>"input/yes_no" name="can_you_multiply" number="1"/}
+    Why?
+    {>"input/text"/}
+    Multiply  __vg31 by 2__! to get __ubun:
+    {>"input/text"/}
+    Multiply __ubun by 2__! To get __ubun2__!:
+    {>"input/text"/}
+    Now get the inverse of __ubun2__!:
+    {>"input/text"/}
+    Now multiply the inverse of __ubun2__! by __ubun2__! to get the password!
+    {>"input/text"/}
+    What is the password (two words)?
+    {>"input/text"/}
+    <br /><br />
+    Finally, you boot up the robot, enter the console and type some commands:
+    <br /><br />
+    <pre style="color:green;line-height:30px">
+    # apt-get purge -y irobot_ai_engine
+    <br />
+    # rm -r /usr/share/ai_engine
+    <br />
+    # rm -r /root/ai_engine_profile
+    <br />
+    # apt-get install -y irobot_ai_engine
+    </pre>
+    <br /><br />
+    {>"input/submit"/}
+</form>
+{/content}

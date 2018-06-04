@@ -1,0 +1,45 @@
+{>"template"/}
+
+{<content}
+What an adventure! You make it to Best Buy alive and ask the tech support team how much it will cost to repair your laptop.
+<br /><br />
+A friendly repairman with bright green hair and round eyeglasses comes over and asks you if you happen to possess a BestRewards card. Yes, you do! “Well then,” he says, “I can give you an excellent deal!”
+<br /><br />
+This is how it works: BestRewards points are worth $0.50 in cash. Your purchase cannot exceed $1000.00, but you must use greater than 300 BestRewards points or dollars (for example, 90 points and 40 dollars).
+<br /><br />
+{>"input/form" nextLevel="9"/}
+    X = BestRewards points<br />
+    Y = amount of cash (in dollars)
+    <br /><br />
+    Objective Function:
+    {>"input/text"/}
+    <br />
+    Constraints:
+    {>"input/text"/}
+    {>"input/text"/}
+    <br />
+    Fill out a table with all the possible solutions to this linear programming (use matrices!):
+    <br/>
+    X{>"input/text" noBlock=true /}
+    Y{>"input/text" noBlock=true /}
+    <br/>
+    X{>"input/text" noBlock=true /}
+    Y{>"input/text" noBlock=true /}
+    <br/>
+    X{>"input/text" noBlock=true /}
+    Y{>"input/text" noBlock=true /}
+    </br/>
+    X{>"input/text" noBlock=true /}
+    Y{>"input/text" noBlock=true /}
+    </br/>
+    <br />
+    Which is the best deal (you spend the LEAST amount of money)?
+    <br />
+    X: {>"input/text"/}
+    Y: {>"input/text"/}
+    How much money will you spend in total?
+    {>"input/text"/}
+
+    {>"input/submit"/}
+</form>
+{/content}

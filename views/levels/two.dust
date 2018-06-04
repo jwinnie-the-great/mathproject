@@ -1,0 +1,33 @@
+{>"template"/}
+
+{<content}
+<img src="https://www.tenforums.com/geek/gars/images/2/types/thumb_Task_Manager.png"></img>
+
+
+The first thing you do is open the task manager. You notice that memory usage is very high, so you flip to the Memory tab and take a look at the history graph:
+<iframe src="https://www.desmos.com/calculator/zly8dygxl5?embed" class="desmos-frame" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+<form class="pure-form" method="get" action="/lvl/3">
+    Fill out a table to show memory usage over time:
+    <br/>
+    {>"input/text" noBlock=true /}{>"input/text" noBlock=true /}
+    <br/>
+    {>"input/text" noBlock=true /}{>"input/text" noBlock=true /}
+    <br/>
+    {>"input/text" noBlock=true /}{>"input/text" noBlock=true /}
+    </br/>
+    Is this a relation?
+    {>"input/yes_no" name="relation" number="1"/}
+    Is this a function?
+    {>"input/yes_no" name="function" number="2"/}
+    What type of relation is this?
+    {>"input/radio" name="relation_type" optionOne="Linear" optionTwo="Exponential" optionThree="Absolute Value" optionFour="Quadratic"/}
+    Is this increasing or decreasing?
+    {>"input/radio" name="increasing_decreasing" optionOne="Increasing" optionTwo="Decreasing"/}
+    Is this growth or decay?
+    {>"input/radio" name="growth_decay" optionOne="Growth" optionTwo="Decay"/}
+
+    {>"input/submit"/}
+</form>
+
+{/content}

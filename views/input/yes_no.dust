@@ -1,0 +1,8 @@
+<label for="yes{number}" class="pure-radio">
+    <input id="yes{number}" type="radio" name="{name}" value="yes{number}" required />
+    Yes
+</label>
+<label for="no{number}" class="pure-radio">
+    <input id="no{number}" type="radio" name="{name}" value="no{number}" />
+    No
+</label>

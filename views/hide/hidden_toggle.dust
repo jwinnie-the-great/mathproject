@@ -1,0 +1,1 @@
+<button class="pure-button" onClick="document.getElementById('hidden').hidden=''" style="display:block">{message}</button>

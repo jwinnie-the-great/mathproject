@@ -1,0 +1,16 @@
+{>"template"/}
+{<content}
+
+The robot rolls back into the office quietly and the manager thanks you. The technician comes over and boots your computer:
+
+<img src="https://blog.malwarebytes.com/wp-content/uploads/2016/12/maincutres.png"></img>
+
+“Ah, you have malware," he says, “A screen locker." He boots into Safe Mode, loads Malwarebytes Anti-Malware from a USB stick and runs the scan:
+
+<img src="https://www.bleepstatic.com/swr-guides/c/cryptodevil/mbam-cryptodevil.png"></img>
+
+He deletes the malware and reboots back into your computer. Phew!
+
+<next>Click Next to begin <b>Levels 6: Exponential/Linear Functions & Sequences</b>.</next>
+<a href="/lvl/13" class="pure-button">Next</a>
+{/content}

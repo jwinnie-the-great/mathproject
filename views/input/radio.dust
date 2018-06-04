@@ -1,0 +1,20 @@
+<label for="{optionOne}" class="pure-radio">
+    <input id="{optionOne}" type="radio" name="{name}" value="{optionOne}" required />
+    {optionOne}
+</label>
+<label for="{optionTwo}" class="pure-radio">
+    <input id="{optionTwo}" type="radio" name="{name}" value="{optionTwo}" />
+    {optionTwo}
+</label>
+{?optionThree}
+    <label for="{optionThree}" class="pure-radio">
+        <input id="{optionThree}" type="radio" name="{name}" value="{optionThree}" />
+        {optionThree}
+    </label>
+{/optionThree}
+{?optionFour}
+    <label for="{optionFour}" class="pure-radio">
+        <input id="{optionFour}" type="radio" name="{name}" value="{optionFour}" />
+        {optionFour}
+    </label>
+{/optionFour}

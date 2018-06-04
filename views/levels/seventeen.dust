@@ -1,0 +1,41 @@
+{>"template"/}
+{<content}
+So you begin to do some research on Linux and Linux distributions. Linux has many different versions, or distributions, and you need to decide which to download (they're all free). The first thing you do is look at their popularity on <a href="https://distrowatch.com">DistroWatch</a>.
+<br/><br/>
+Popularity (by page hits): <math>2438, 2751, 1725, 1494, 1290, 1199, 1041, 955, 848, 814, 800, 618, 19</math>
+<br />
+<blockquote>
+    Look, Jeremy is so nice! He even sorted the numbers for us!
+    <cite>&mdash; A good student</cite>
+</blockquote>
+<blockquote>
+    Uhh... this is so dumb. Who even cares about Linux?
+    <cite>&mdash; A bad student</cite>
+</blockquote>
+{>"input/form" nextLevel="15"/}
+    <h4>Draw the following plots on paper (Santa will be mad if you lie on this one):</h4>
+    {>"input/checkbox" name="dotplot" content="I finished the dot plot" /}
+    {>"input/checkbox" name="histogram" content="I finished the histogram" /}
+    {>"input/checkbox" name="box-and-whisker" content="I finished the box-and-whisker plot 📦+🐈"/}
+    {>"input/checkbox" name="stem-and-leaf" content="I finished the stem-and-leaf plot 🌴" /}
+    <h4>Get the five-number summary:</h4>
+    Min: {>"input/text"/}
+    Q1: {>"input/text"/}
+    Median: {>"input/text"/}
+    Q3: {>"input/text"/}
+    Max: {>"input/text"/}
+    IQR: {>"input/text"/}
+    <h4>Get the upper fence and lower fence and identify any outliers:</h4>
+    Upper Fence: {>"input/text"/}
+    Lower Fence: {>"input/text"/}
+    Outliers (separated by commas): {>"input/text"/}
+    <h4>Get the mode, mean and standard deviation:</h4>
+    Mode: {>"input/text"/}
+    Mean: {>"input/text"/}
+    Standard Deviation: {>"input/text"/}
+    <h4>What is the spread of the data?</h4>
+    {>"input/radio" name="spread" optionOne="Skewed Left" optionTwo="Skewed Right" optionThree="Symmetric"/}
+    <next>Click Next to begin <b>Level 8: Bivariate Statistics</b>.</next>
+    {>"input/submit"/}
+</form>
+{/content}

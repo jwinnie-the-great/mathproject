@@ -1,0 +1,16 @@
+{>"template"/}
+
+{<content}
+You begin to become suspicious of Registry Scanner. Its algorithm marks all PCs as "of low health"; thankfully, you are good at math and have deciphered the truth. You warily click "Clean"; it can’t hurt, right?
+
+{>"hide/hidden_toggle" message="Click \"Clean\"" /}
+
+{>"hide/hidden"/}
+    <img src="https://cdn.windowsreport.com/wp-content/uploads/2016/08/BSOD-windows-10-anniversary-update.jpg"></img>
+
+    Oh no! It’s the infamous Blue Screen of Death! The power button stops working and your computer freezes! Shocked, you immediately give up your plan and drive to Best Buy to get it repaired.
+
+    <a href="/lvl/7" class="pure-button" style="display:block">Go to Best Buy</a>
+</div>
+
+{/content}
