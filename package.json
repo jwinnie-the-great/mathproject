@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www --config nodemon.json &"
+    "start": "nodemon ./bin/www --config nodemon.json &",
+    "prod:start": "./bin/www"
   },
   "dependencies": {
     "adaro": "~1.0.4",
